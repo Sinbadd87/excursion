@@ -38,7 +38,8 @@ header h1 {
   }
 
 /* Main */
-main h2 {
+main h2,
+footer h2 {
     font-weight: 300;
     font-size: 42px;
     color: white;
@@ -50,4 +51,17 @@ main h4 {
     color: gray;
     font-weight: normal;
     margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    position: relative;
+}
+footer h4 {
+    font-size: 21px;
+    font-weight: normal;
+    display: flex;
+    justify-content: end;
+    color: gray;
+    margin: 10px;
 }
